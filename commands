@@ -1,0 +1,9 @@
+设置名字和邮件
+git config --global user.name "Your Name"
+git config --global user.email "email@example.com"
+
+生成SSH Key
+ssh-keygen -t rsa -C "youremail@example.com"
+
+会生成id_rsa和id_rsa.pub
+id_rsa是私钥，不能泄露出去，id_rsa.pub是公钥，可以放心地告诉任何人
